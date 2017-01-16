@@ -10,6 +10,56 @@ sayHello()
 // (You can uncomment a line by removing the // at the beginning of the line.)
 //print(greeting)
 
+let rebecca = "bae"
+let sauce = 7
+
+
+func wassup() {
+    let hello = "whats good b"
+    print(hello)
+}
+
+wassup()
+
+func ayo() {
+    let hello = "whats cookin good lookin"
+    print(hello)
+}
+
+ayo()
+
+func heyWassup() {
+    print("Hey how's it going pretty lady?")
+}
+
+heyWassup()
+
+func ayoBae() {
+    let bae = "whats good bae"
+    print("I heard you called, \(bae)")
+}
+
+ayoBae()
+
+
+func sayEllo(name: String) {
+    print("Hello \(name), how are you doing today?")
+}
+
+sayEllo(name: "my guy")
+
+sayEllo(name: rebecca)
+
+func test(number: Int) {
+    print("How many times did you eat today?")
+    print("I ate \(number) of times today")
+}
+
+test(number: 5)
+
+test(number: sauce)
+
+
 
 func sayHelloToGarfield() {
     print("Hello, Garfield, why do you sleep so much?")
@@ -42,3 +92,4 @@ sayHello(name: "Socks")
 let dumpsterCat = "Rocky"
 sayHello(name: dumpsterCat)
 // Prints "Hello Rocky, why do you sleep so much?"
+
